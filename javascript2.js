@@ -1,6 +1,27 @@
-let idade = 17
+let profession = "fiscal";
 
-if( idade < 17){
-console.log("menor de idade")}
-else{
-console.log ("maior de idade")}
+console.log("Profissao: " + profession);
+
+switch(profession){
+      case "fiscal" :
+         console.log("Sua camisa verde");
+         break;
+      case "bombeiro" :
+         console.log("Sua camisa vermelho");
+         break;
+      case "policial" :
+            console.log("Sua camisa azul");
+            break ; 
+      default :
+            console.log("sua camisa preta");
+            break;
+    
+
+}
+
+function gravidade(){
+     console.log("A gravidade e 10")
+
+}
+
+gravidade();
